@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal PortFolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Nunito&family=Playfair+Display:wght@700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <p>Jagpreet Dhanova</p>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="#project-section">Projects</a>
+        <a href="#contact">Contacts</a>
+      </nav>
+    </header>
+    
+    <div class="image-container">
+      <div>
+        <img class="user" src="" alt="" />
+      </div>
+    </div>
+    <div class="intro-section">
+      <p class="skill">Frontend Web Developer</p>
+      <h2><span></span></h2>
+      <p class="short-intro">
+        Frontend web developers create visually appealing, user-friendly
+        websites using HTML, CSS, and JavaScript for optimal user experiences
+        across devices.
+      </p>
+      <div class="btn-section">
+        <button class="project-btn">Projects</button>
+        <button class="Linked-in">LinkedIN</button>
+      </div>
+    </div>
+    <div class="project-section" id="project-section">
+      <p>Projects</p>
+      <div class="underline"></div>
+      <div class="project-container">
+        <div class="project1">
+          <div class="project1-content">
+            <h3>To-Do-List</h3>
+            <p>
+              I created this project to get a better understanding of html,css
+              and javascript
+            </p>
+            <a href="https://jd-to-do-list.netlify.app"
+              ><button>View Project</button></a
+            >
+          </div>
+          <img src="./images/Screenshot (291).png" alt="" />
+        </div>
+        <div class="project2">
+          <img src="./images/fcfc6c00-9f2c-11ea-8c89-54c55ea7ee13.jpg" alt="" />
+          <div class="project2-content">
+            <h3>Countries API</h3>
+            <p>
+              I Created this project to illustrate the use of React and fetching
+              api
+            </p>
+            <a href="https://jd-countryapi.netlify.app/"><button>View Project</button></a>
+          </div>
+        </div>
+        <div class="project3">
+          <div class="project3-content">
+            <h3>Parralax Effext</h3>
+            <p>I Created this to understand advance feature of css</p>
+            <a href="https://jd-parallax.netlify.app"
+              ><button>View Project</button></a
+            >
+          </div>
+          <img src="./images/Screenshot (292).png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="contact-section" id="contact">
+      <p class="underline-heading">Contact</p>
+      <div class="underline"></div>
+      <div class="input-field">
+        <label for="name">Name: </label>
+        <input type="text" id="name" /><br />
+        <label for="email">Email: </label>
+        <input type="email" id="email" /><br />
+        <label for="message">Message </label>
+        <textarea name="" id="message" cols="30" rows="6"></textarea>
+      </div>
+      <button
+        onclick="location.href='mailto:jagpreetdhanova12@gmail.com;'"
+        class="project-btn"
+      >
+        Send
+      </button>
+    </div>
+    <footer>
+      <div class="social-media-icon">
+        <img src="./footer/footer/ph_instagram-logo-fill.png" alt="" />
+        <img src="./footer/footer/bi_linkedin.png" alt="" />
+        <img src="./footer/footer/bi_envelope-fill.png" alt="" />
+      </div>
+      <p>Jagpreet Dhanova</p>
+      <img src="footer/Vector.png" alt="" />
+    </footer>
+  </body>
+</html>
